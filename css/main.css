@@ -1,9 +1,22 @@
 *{
     /*background-color: #a7ff83;*/
+    font-family: 'Monserrat';
     font-family: 'inconsolata';
 }
 
 
+body{
+    background-image: url('/img/dot-grid.png');
+}
+/*
+@font-face {
+    font-family: 'Monserrat';
+    src: url('/montserrat/Montserrat-Medium.otf'); 
+    src: url('/montserrat/Montserrat-Medium.otf?#iefix') format('embedded-opentype'), 
+         url('/montserrat/Montserrat-Medium.otf') format('woff'), 
+         url('/montserrat/Montserrat-Medium.otf')  format('truetype'), 
+  }
+*/
 
 #navbar {
     color: #071e3d;
@@ -41,6 +54,7 @@ nav{
     /*background-color: #278ea5;*/
 }
 #hero{
+    font-family: 'inconsolata' !important;
     margin-top: 50px;
     line-height: 200%;
     max-width: 650px;
@@ -69,6 +83,19 @@ nav{
     width: 30%;
     object-fit: cover;
 }
+
+
+
+/* Contacto */
+#contacto{
+    background-color: #81a6aa;
+    color: white;
+}
+
+#contacto h1{
+    
+}
+
 
 
 @media only screen and (max-width: 768px) {
